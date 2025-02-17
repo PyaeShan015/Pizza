@@ -265,7 +265,12 @@ nav .nav-link li a.active {
     padding: 1rem;
 }
 .info .container .item {
+    /* border: 1px solid black; */
     width: 30%;
+}
+.info .container .map {
+    border: 1px solid black;
+    width: 53%;
 }
 .info .container .item h2 {
     text-transform: uppercase;
@@ -394,6 +399,9 @@ footer ul li a:hover {
     #contact form {
     width: 90%;
     }  
+    .info .container .map {
+        border: 1px solid black;
+        width: 100%;
 }
 @media (max-width: 576px) {
     .container {

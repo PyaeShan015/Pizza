@@ -42,7 +42,7 @@ const observer = new IntersectionObserver(entries => {
             document.querySelector(`.nav-link a[href="#${activelink}"]`).classList.add('active');
         }
     })
-})
+}, {threshold: 0.5})
 
 sections.forEach(function(section) {
     observer.observe(section);
